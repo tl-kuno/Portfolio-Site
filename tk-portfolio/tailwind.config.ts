@@ -9,9 +9,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        main: "var(--main)",
+        dark: "var(--dark)",
+        lightWarm: "var(--light-warm)",
+        lightCool: "var(--light-cool)",
+        accent: "var(--accent)"
       },
+      fontFamily: {
+        header: '"Poppins", sans-serif',
+        body: '"Quicksand", sans-serif'
+      },
+      backgroundImage: {
+        'agate-texture': "url('/agate-texture-black.png')"
+      }
     },
   },
   plugins: [],
